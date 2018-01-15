@@ -1,0 +1,8 @@
+/* Sass Document */
+/* line 15, style.scss */
+div.container { margin-top: 10px; margin-left: 15px; display: flex; display: -webkit-flex; }
+
+/* line 18, style.scss */
+.container { width: 90%; margin-left: auto; margin-right: auto; height: 1000px; background-color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */

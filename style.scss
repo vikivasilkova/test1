@@ -1,12 +1,24 @@
 /* Sass Document */
-@function color($key: "blue") {
-  @return map-get($colors, $key);
+$color-red: red;
+@mixin display () {
+	margin-top: 10px;
+	margin-left: 15px;
+	display: flex;
+	display: -webkit-flex;
 }
+@mixin table {
+	hight: 250px;
+	weight: 100%;
+	margin: 20px;
+	}
 
-@function theme-color($key: "primary") {
-  @return map-get($theme-colors, $key);
+div.container {
+	@include display;
 }
-
-@function gray($key: "100") {
-  @return map-get($grays, $key);
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
 }
